@@ -1,0 +1,111 @@
+# Create a new repository on GitHub
+git init
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/all-hack-apk.git
+git push -u origin master
+
+# Clone the repository to your local machine
+git clone https://github.com/yourusername/all-hack-apk.git
+
+# Create a new file called index.html and paste the code into it
+echo "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>All Hack APK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            line-height: 1.5;
+        }
+        .proofs {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .proof {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .rating {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .star {
+            color: #ffc107;
+            font-size: 24px;
+        }
+        .buy-now {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .buy-button {
+            background-color: #ffc107;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class=\"container\">
+        <h1>All Hack APK</h1>
+        <p>This is a collection of all the latest hack APKs available online.</p>
+        <div class=\"proofs\">
+            <div class=\"proof\">
+                <h2>Proof 1</h2>
+                <p>This is proof 1 of the hack APK.</p>
+            </div>
+            <div class=\"proof\">
+                <h2>Proof 2</h2>
+                <p>This is proof 2 of the hack APK.</p>
+            </div>
+            <div class=\"proof\">
+                <h2>Proof 3</h2>
+                <p>This is proof 3 of the hack APK.</p>
+            </div>
+        </div>
+        <div class=\"rating\">
+            <span class=\"star\">⭐</span>
+            <span class=\"star\">⭐</span>
+            <span class=\"star\">⭐</span>
+            <span class=\"star\">⭐</span>
+            <span class=\"star\">⭐</span>
+        </div>
+        <div class=\"buy-now\">
+            <button class=\"buy-button\">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>" > index.html
+
+# Commit the changes and push them to the repository
+git add index.html
+git commit -m "Add index.html file"
+git push origin master
